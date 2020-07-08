@@ -33,6 +33,12 @@ nav{
   min-height: 10vh;
   letter-spacing: 2px;
 }
+.nav-bar{
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
 .logo{
   text-transform: uppercase;
   color: #f3f4fd;
@@ -66,11 +72,17 @@ h2{
 }
 
 #projects-working li{
+  font-family: 'Overpass', sans-serif;
   padding: 10px;
   list-style: none;
   margin: 10px;
   border-left: #484c7f solid;
 }
+#projects-working li:hover{
+  background-color: #f3f4fd;
+  cursor: pointer;
+}
+
 .listing{
   padding-left: 450px;
 }
