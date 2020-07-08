@@ -76,13 +76,29 @@ h2{
   padding: 10px;
   list-style: none;
   margin: 10px;
+  border-radius: 5px;
   border-left: #484c7f solid;
 }
+#projects-working li:nth-child(even){
+  background-color: #f3f4fd;
+}
 #projects-working li:hover{
+  /* border-left: none; */
+  border-right: #484c7f solid;
   background-color: #f3f4fd;
   cursor: pointer;
 }
 
 .listing{
   padding-left: 450px;
+}
+.bottom-div{
+  padding-top: 25px;
+  border-bottom: #484c7f double;
+}
+
+
+/* PUBLICATIONS STYLING */
+.table-div{
+  
 }
