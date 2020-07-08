@@ -134,3 +134,17 @@ th{
   font-family: 'Overpass', sans-serif;
   text-align: center;
 }
+
+/* styling for teaching and outreach */
+.outreach-list li{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  border-radius: 10px;
+}
+.outreach-list li{
+  background-color: #f3f4fd;
+}
