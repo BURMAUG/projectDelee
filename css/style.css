@@ -1,34 +1,76 @@
 body{
+  background-color: #ffffff;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 .main{
   margin: 15px;
-  padding: 20px 20px;
+  padding: 30px 270px 30px 270px;
+}
+/* header */
+header h2{
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  border-bottom: #484c7f double;
 }
 /* images */
 img{
+  margin-top: 100px;
   float: left;
-  margin-right: 10px;
+  margin-right: 50px;
   border-radius: 10px;
-  width: 420px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-              0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.image{
-}
+
 /* nav */
 nav{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #942b2b;
+  background-color: #484c7f;
   min-height: 10vh;
   letter-spacing: 2px;
 }
+.logo{
+  text-transform: uppercase;
+  color: #f3f4fd;
+  font-family: 'Overpass', sans-serif;
+}
 /* nav links */
 .nav-links{
-  display: contents;
+  display: flex;
   justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links a{
+  color: #f3f4fd;
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: 'Overpass', sans-serif;
+}
+
+/* List of the project hes working on */
+.nav-links li{
+  list-style: none;
+}
+p{
+  padding-left: 450px;
+  font-family: 'Overpass', sans-serif;
+}
+h2{
+  font-family: 'Overpass', sans-serif;
+}
+
+#projects-working li{
+  padding: 10px;
+  list-style: none;
+  margin: 10px;
+  border-left: #484c7f solid;
+}
+.listing{
+  padding-left: 450px;
 }

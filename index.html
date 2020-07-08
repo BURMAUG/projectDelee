@@ -4,23 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
   <title>Home</title>
 </head>
 <body>
   <div class="container">
     <nav>
       <div class="logo">
-        <h2>Dr Lee</h2>
+        <!-- <h2>Dr.</h2> -->
+        <h2>De Lee</h2>
       </div>
       <ul class="nav-links">
         <li>
           <a href="">Home</a>
         </li>
-        <li>
+        <!-- uncomment this to include the projects sections -->
+        <!-- <li>
           <a href="">Projects</a>
-        </li>
+        </li> -->
         <li>
-          <a href="">Projects</a>
+          <a href="">Publications</a>
         </li>
         <li>
           <a href="">Software</a>
@@ -33,12 +36,12 @@
     <div class="page">
       <!-- main -->
       <div class="main">
-        <div class="image">
-          <img src="photos/me2.jpg" alt="this">
-        </div>
         <header>
           <h2>about me</h2>
         </header>
+        <div class="image">
+          <img src="photos/me2.jpg" alt="this">
+        </div>
         <p>
           My name is Nathan De Lee, and I am currently an assistant professor in the Department of Physics and Geology at Northern
           Kentucky University. I am also a adjunct professor in the Department of Physics and Astronomy at Vanderbilt University.
@@ -63,15 +66,18 @@
           <h2>
             Projects I am currently working on:
           </h2>
-
-          <li>Creating a catalog of Brown Dwarfs in the SDSS-III MARVELS and APOGEE surveys</li>
-          <li>Creating a stellar input catalog for the TESS exoplanet mission</li>
-          <li>Tracing the Thin and Thick Galactic Disk with RR Lyrae from KELT</li>
-          <li>Tracing the Galactic halo with RR Lyrae from the SDSS-II SN Survey</li>
-          <li>Photometric metallicity determinations of RR Lyrae in SDSS g, r, and i</li>
-          <li>Variable star search of the Fornax Dwarf Galaxy</li>
-          <li>Studying Oosterhoff types with NGC 6304</li>
-          <li>Type II Cepheid Project</li>
+          <div class="listing">
+            <ul id="projects-working">
+              <li>Creating a catalog of Brown Dwarfs in the SDSS-III MARVELS and APOGEE surveys</li>
+              <li>Creating a stellar input catalog for the TESS exoplanet mission</li>
+              <li>Tracing the Thin and Thick Galactic Disk with RR Lyrae from KELT</li>
+              <li>Tracing the Galactic halo with RR Lyrae from the SDSS-II SN Survey</li>
+              <li>Photometric metallicity determinations of RR Lyrae in SDSS g, r, and i</li>
+              <li>Variable star search of the Fornax Dwarf Galaxy</li>
+              <li>Studying Oosterhoff types with NGC 6304</li>
+              <li>Type II Cepheid Project</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
