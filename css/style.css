@@ -149,3 +149,105 @@ th{
 .outreach-list li{
   background-color: #f3f4fd;
 }
+
+/* PUBLICATIONS STYLING */
+.underline{
+  border-bottom: #484c7f double;
+}
+.publications-p p{
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+.research-interest li{
+  font-family: 'Overpass', sans-serif;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  background-color: #f3f4fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.awards li{
+  font-family: 'Overpass', sans-serif;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  background-color: #f3f4fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.software-design li{
+  font-family: 'Overpass', sans-serif;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  background-color: #f3f4fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.expert li{
+  font-family: 'Overpass', sans-serif;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  background-color: #f3f4fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.organizations li{
+  font-family: 'Overpass', sans-serif;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  background-color: #f3f4fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.re-collab li{
+  font-family: 'Overpass', sans-serif;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  background-color: #f3f4fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.re-experince li{
+  font-family: 'Overpass', sans-serif;
+  list-style: none;
+  border-left: #484c7f solid;
+  border-right: #484c7f solid;
+  background-color: #f3f4fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+/* talks */
+.talks p{
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+.talks b{
+  font-size: large;
+  font-weight: bold;
+}
+/* posters */
+.posters-para p{
+  text-align: center;
+  font-family: 'Overpass', sans-serif
+}
